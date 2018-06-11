@@ -208,7 +208,7 @@ while isempty(todonow) || todonow~=9
             % TODO: make escape possible
          end
         logTask
-        fprintf('\n logTask saved on %s\n',fullfile(logpath,[sttime '_autoRF_' neuronID]))
+        fprintf('\n logTask saved on %s\n',fullfile(logpath,[sttime '_autoRFmove_' neuronID]))
     end
     
     % Task
